@@ -5,16 +5,17 @@ CsvReader reads csv files and loads data for unit tests.
 
 Functions it performs are as follows:
 
-Addition
-Subtraction
-Multiplication
-Division
-Square
-Square Root
-Project Guidelines
+1.Addition
 
-Correct usage of object and static methods and properties
-At least 7 unit tests
-At least 7 commits
-Your program works
-Your docker file is setup to run the program
+2.Subtraction
+
+3.Multiplication
+
+4.Division
+
+5.Square
+
+6.Square Root
+
+
+

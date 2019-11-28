@@ -63,7 +63,9 @@ class MyCalculator:
         self.result = division(a, b)
         return self.result
 
-
+    def square(self, a):
+        self.result = square(a)
+        return self.result
 
     def square_root(self, a):
         self.result = square_root(a)

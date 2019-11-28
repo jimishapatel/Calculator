@@ -8,7 +8,7 @@ def ClassFactory(class_name, dictionary):
 class CsvReader:
     data = []
 
-    def _init_(self, filepath):
+    def __init__(self, filepath):
         self.data = []
 
         with open(filepath) as text_data:
