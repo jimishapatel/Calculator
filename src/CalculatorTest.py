@@ -19,5 +19,13 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, int(row['Result']))
 
 
+    def division(self):
+        test_data = CsvReader('src/csv/TestDivision.csv').data
+        for row in test_data:
+            result = float(row['Result'])
+            self.assertAlmostEqual(self.calculator.divide(row['Value 1'], row['Value 2']), result)
+            self.assertAlmostEqual(self.calculator.result, float(row['Result']))
+
+
 if __name__ == '__main__':
     unittest.main()
